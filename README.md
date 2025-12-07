@@ -14,7 +14,7 @@ Bit 1, 0: Reg B
 
 #### Op Codes
 
-| Instruction | Bits
+| Instruction | Bits |
 | ADD | 0 0 0 |
 | SHR | 0 0 1 |
 | SHL | 0 1 0 |
@@ -35,7 +35,7 @@ Bit 1, 0: Reg B
 
 #### Op Codes
 
-| Instruction | Bits
+| Instruction | Bits |
 | ADD | 0 0 0 |
 | SHR | 0 0 1 |
 | SHL | 0 1 0 |
