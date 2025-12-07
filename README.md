@@ -2,19 +2,29 @@
 
 ## Intruction Set
 
-### LOAD/STORE Instruction
+### LOAD/STORE Instructions
+
+Load/Store information from/to the RAM to/from a register.
 
 Bits:
-* Bit 7: 0 (identifies as a LOAD/STORE instruction)
-* Bit 6, 5: EMPTY
+* Bit 7, 6, 5: 0 0 0
 * Bit 4: 0 means LOAD, 1 means STORE
 * Bit 3, 2: Reg A
 * Bit 1, 0: Reg B
 
-Reg A = Destination/Source RAM address
+Reg A = Contains Destination/Source RAM address
 Reg B = Source/Destination Register
 
-### ALU Instruction
+### Data Instructions
+
+Load next data in RAM.
+
+Bits:
+* Bit 7, 6, 5, 4:  0 0 1 0
+* Bit 3, 2: Irrelevant
+* Bit 1, 0: Destination Register
+
+### ALU Instructions
 
 * Bit 7: 1 (identifies as an ALU instruction)
 * Bit 6, 5, 4: ALU Op Code
