@@ -11,6 +11,9 @@ Bits:
 * Bit 3, 2: Reg A
 * Bit 1, 0: Reg B
 
+Reg A = Destination/Source RAM address
+Reg B = Source/Destination Register
+
 ### ALU Instruction
 
 * Bit 7: 1 (identifies as an ALU instruction)
