@@ -17,7 +17,7 @@ Reg B = Source/Destination Register
 
 ### Data Instructions
 
-Load next data in RAM.
+Load next 8 bits from the next RAM address into a register.
 
 Bits:
 * Bit 7, 6, 5, 4:  0 0 1 0
