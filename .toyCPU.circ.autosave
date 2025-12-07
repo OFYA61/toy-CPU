@@ -800,7 +800,7 @@
     <comp lib="1" loc="(850,1660)" name="AND Gate">
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="1" loc="(920,1660)" name="NOT Gate"/>
+    <comp lib="1" loc="(900,1660)" name="NOT Gate"/>
     <comp lib="2" loc="(2090,1470)" name="Decoder">
       <a name="enable" val="false"/>
       <a name="select" val="2"/>
@@ -1078,7 +1078,8 @@
     <wire from="(780,1640)" to="(800,1640)"/>
     <wire from="(780,1680)" to="(780,1730)"/>
     <wire from="(780,1680)" to="(800,1680)"/>
-    <wire from="(850,1660)" to="(890,1660)"/>
+    <wire from="(850,1660)" to="(870,1660)"/>
+    <wire from="(900,1660)" to="(920,1660)"/>
     <wire from="(970,720)" to="(1170,720)"/>
     <wire from="(970,780)" to="(1410,780)"/>
     <wire from="(970,840)" to="(1510,840)"/>
