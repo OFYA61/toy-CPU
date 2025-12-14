@@ -152,8 +152,10 @@
       <a name="type" val="output"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="0" loc="(1370,1130)" name="Pin">
+    <comp lib="0" loc="(1360,1050)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="IR_VAL"/>
+      <a name="type" val="output"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(1440,290)" name="Pin">
@@ -255,7 +257,7 @@
     <wire from="(1130,310)" to="(1220,310)"/>
     <wire from="(1160,1030)" to="(1160,1070)"/>
     <wire from="(1160,1110)" to="(1160,1230)"/>
-    <wire from="(1160,1230)" to="(1900,1230)"/>
+    <wire from="(1160,1230)" to="(1410,1230)"/>
     <wire from="(1220,310)" to="(1220,360)"/>
     <wire from="(1220,310)" to="(1340,310)"/>
     <wire from="(1220,360)" to="(1240,360)"/>
@@ -266,9 +268,11 @@
     <wire from="(1320,360)" to="(1340,360)"/>
     <wire from="(1340,310)" to="(1340,360)"/>
     <wire from="(1340,310)" to="(1420,310)"/>
-    <wire from="(1370,1130)" to="(1410,1130)"/>
-    <wire from="(1390,1030)" to="(1390,1070)"/>
-    <wire from="(1410,1100)" to="(1410,1130)"/>
+    <wire from="(1360,1050)" to="(1390,1050)"/>
+    <wire from="(1390,1030)" to="(1390,1050)"/>
+    <wire from="(1390,1050)" to="(1390,1070)"/>
+    <wire from="(1410,1100)" to="(1410,1230)"/>
+    <wire from="(1410,1230)" to="(1900,1230)"/>
     <wire from="(1420,310)" to="(1420,360)"/>
     <wire from="(1420,310)" to="(1550,310)"/>
     <wire from="(1420,360)" to="(1450,360)"/>
