@@ -162,9 +162,6 @@
       <a name="type" val="output"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="0" loc="(1460,1050)" name="Constant">
-      <a name="facing" val="north"/>
-    </comp>
     <comp lib="0" loc="(1870,820)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="M_REG_VAL"/>
@@ -275,8 +272,7 @@
     <wire from="(1420,310)" to="(1420,360)"/>
     <wire from="(1420,310)" to="(1550,310)"/>
     <wire from="(1420,360)" to="(1450,360)"/>
-    <wire from="(1430,1050)" to="(1430,1070)"/>
-    <wire from="(1430,1050)" to="(1460,1050)"/>
+    <wire from="(1430,1030)" to="(1430,1070)"/>
     <wire from="(1440,290)" to="(1440,340)"/>
     <wire from="(1440,340)" to="(1450,340)"/>
     <wire from="(1470,460)" to="(1470,530)"/>
