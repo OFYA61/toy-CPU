@@ -1,5 +1,9 @@
 # Toy CPU
 
+To run code, go to `programs/` to find programs, which can be loaded into the memory.
+To load into memory, go to `CPU` and from there jump inside of `RAM 256`. Right click on the RAM
+and select `Load Image`.
+
 ## Intruction Set
 
 ### LOAD/STORE Instructions
